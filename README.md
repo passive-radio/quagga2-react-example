@@ -8,3 +8,5 @@ Showcasing Quagga2 in combination with ReactJS
 then
 
 Open `localhost:3000` in your browser.
+
+deploy testing
