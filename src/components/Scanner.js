@@ -90,7 +90,7 @@ const Scanner = ({
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        id: result.codeResult.code,
+                        "id": result.codeResult.code,
                     })
                 });
                 alert(`Book ID: ${result.codeResult.code} is returned!`);
