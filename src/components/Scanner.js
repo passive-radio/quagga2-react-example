@@ -82,7 +82,7 @@ const Scanner = ({
                 // }
 
                 // TODO: Send data to API server
-                const API_URL = 'http://192.168.11.17:8080';
+                const API_URL = 'http://192.168.11.6:8080';
                 fetch(`${API_URL}/book`, {
                     method: 'POST',
                     mode: 'cors',
