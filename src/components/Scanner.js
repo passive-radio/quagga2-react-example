@@ -86,6 +86,9 @@ const Scanner = ({
                 fetch(`${API_URL}/book`, {
                     method: 'POST',
                     mode: 'cors',
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
                     body: JSON.stringify({
                         id: result.codeResult.code,
                     })
