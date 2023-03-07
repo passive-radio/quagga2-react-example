@@ -85,7 +85,7 @@ const Scanner = ({
                 const API_URL = 'http://192.168.11.6:8080';
                 fetch(`${API_URL}/book`, {
                     method: 'POST',
-                    mode: 'cors',
+                    // mode
                     headers: {
                         "Content-Type": "application/json",
                     },
