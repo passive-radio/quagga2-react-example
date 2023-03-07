@@ -80,6 +80,8 @@ const Scanner = ({
                 // if (validated) {
                 //     onDetected(result);
                 // }
+                alert("Your file is being uploaded!");
+
             }
         }
     };
