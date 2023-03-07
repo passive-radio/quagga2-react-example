@@ -80,8 +80,17 @@ const Scanner = ({
                 // if (validated) {
                 //     onDetected(result);
                 // }
-                alert("Your file is being uploaded!");
 
+                // TODO: Send data to API server
+                const API_URL = 'http://192.168.11.17:8080';
+                fetch(`${API_URL}/book`, {
+                    method: 'POST',
+                    mode: 'cors',
+                    body: JSON.stringify({
+                        id: result.codeResult.code,
+                    })
+                });
+                alert(`Book ID: ${result.codeResult.code} is returned!`);
             }
         }
     };
